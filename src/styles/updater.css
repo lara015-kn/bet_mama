@@ -1,0 +1,119 @@
+.updater-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.updater-left {
+  width: 30%;
+  background: #111;
+  color: white;
+  padding: 15px;
+}
+
+.updater-right {
+  width: 70%;
+  padding: 20px;
+}
+
+.match-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #333;
+}
+
+.match-item:hover {
+  background: #222;
+}
+
+.match-item.active {
+  background: red;
+}
+
+.add-match {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.add-match input {
+  flex: 1;
+  padding: 5px;
+}
+
+.add-match button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+.editor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.update-btn {
+  margin-top: 15px;
+  padding: 10px;
+  background: red;
+  color: white;
+  border: none;
+  width: 100%;
+}
+
+.editor {
+  padding: 15px;
+}
+
+.editor h4 {
+  margin-top: 15px;
+}
+
+.editor input,
+.editor select {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+.editor-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.update-btn {
+  margin-top: 15px;
+  background: #d60000;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.match-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.match-name {
+  flex: 1;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  transform: scale(1.1);
+}

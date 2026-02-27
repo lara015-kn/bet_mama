@@ -1,0 +1,231 @@
+/* Layout */
+
+.loader-layout {
+  display: flex;
+  height: 100vh;
+  background: #f6f7fb;
+}
+
+/* Inline edit form */
+.inline-form {
+  margin-top: 15px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Grid layout 3 columns */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* Bottom section */
+.form-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Buttons */
+.form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.form-actions button {
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* LEFT PANEL */
+
+.loader-left {
+  width: 260px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.loader-left h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+/* Add Match */
+
+.add-match {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.add-match input {
+  flex: 1;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-match button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+
+/* Match List */
+
+.match-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px 10px;
+  margin-bottom: 6px;
+
+  border-radius: 6px;
+  cursor: pointer;
+
+  background: #f2f2f2;
+}
+
+.match-item:hover {
+  background: #e6e6e6;
+}
+
+.match-item.active {
+  background: #d60000;
+  color: white;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* RIGHT PANEL */
+
+.loader-right {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+
+/* Question Card */
+
+.question-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+
+  margin-bottom: 12px;
+
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+
+/* Question Header */
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 8px;
+}
+
+
+/* Actions */
+
+.question-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #eee;
+}
+
+.delete-btn {
+  background: #ffd6d6;
+}
+
+
+/* Add Question Button */
+
+.loader-right > button {
+  margin-bottom: 15px;
+  padding: 8px 12px;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #d60000;
+  color: white;
+
+  cursor: pointer;
+}
+
+
+/* Modal */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.modal > div,
+.modal {
+  background: white;
+}
+
+
+/* Form */
+
+.modal input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.modal-actions button {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}

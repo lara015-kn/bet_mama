@@ -1,0 +1,66 @@
+/* ================= BOTTOM NAV ================= */
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 8px 0 6px;
+
+  border-top: 1px solid #eee;
+
+  box-shadow: 0 -5px 15px rgba(0,0,0,0.06);
+
+  z-index: 50;
+}
+
+/* Each item */
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+
+  text-decoration: none;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  color: #777;
+
+  transition: all 0.2s ease;
+}
+
+/* Icon */
+
+.nav-item svg {
+  color: #888;
+  transition: all 0.2s ease;
+}
+
+/* Active Tab */
+
+/* .nav-item.active {
+  color: #cc0000;
+} */
+
+/* .nav-item.active svg {
+  color: #cc0000;
+  transform: scale(1.15);
+} */
+
+/* Hover (desktop support) */
+
+.nav-item:hover {
+  color: #cc0000;
+}
+
+.nav-item:hover svg {
+  color: #cc0000;
+}

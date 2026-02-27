@@ -1,0 +1,52 @@
+.page {
+  padding: 15px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
+
+/* History Card */
+
+.history-card {
+  background: white;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-left: 5px solid gray;
+}
+
+.history-card .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.history-card .time {
+  font-size: 12px;
+  color: gray;
+}
+
+/* Status Colors */
+
+.win {
+  border-color: green;
+  background: #e9ffe9;
+}
+
+.lost {
+  border-color: red;
+  background: #ffe9e9;
+}
+
+.draw {
+  border-color: orange;
+  background: #fff5e0;
+}

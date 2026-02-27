@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* HEADER */
+
+.header {
+  background: #c40000;
+  color: white;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* MAIN */
+
+.main {
+  padding: 15px;
+}
+
+/* TITLE */
+
+.page-title {
+  margin-bottom: 15px;
+}
+
+/* EMPTY */
+
+.empty {
+  text-align: center;
+  color: gray;
+  margin-top: 40px;
+}
+
+/* CARD */
+
+.bet-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* TOP ROW */
+
+.bet-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* STATUS COLORS */
+
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.status.pending {
+  background: orange;
+  color: white;
+}
+
+.status.won {
+  background: green;
+  color: white;
+}
+
+.status.lost {
+  background: red;
+  color: white;
+}
+
+/* DETAILS */
+
+.bet-details div {
+  margin-bottom: 5px;
+}
+.bet-card {
+  background: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.bet-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
